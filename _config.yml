@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: sidebar #stacked
+style: light #dark
 
 plugins:
   - jekyll-octicons
@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -47,12 +47,13 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: AR
+    #web_url: https://developers.google.com/ar
+    image_url: https://lh3.googleusercontent.com/ugEBVDcghA1x9fVldH8oz3aEQnMLki0pEc5xfpaZTi9SQGEbQqM-Cbzb60MU4fLM9bIv
 
-  - name: Web design
+  - name: Networking
+    image_url: https://computerguyswfl.com/wp-content/uploads/2012/03/Fort-Myers-wireless-network.jpg
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Computation Offloading
+    #web_url: https://github.com/topics/sass
+    image_url: https://media.istockphoto.com/vectors/cloud-computing-line-icon-outline-vector-logo-illustration-linear-vector-id669726438
