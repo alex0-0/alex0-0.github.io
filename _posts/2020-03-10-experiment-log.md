@@ -3,9 +3,56 @@ title: "Experiment Log"
 ---
 
 
-** Obtain 2 frames/second from the video. Use the object detection result from faster RCNN as ground truth. ** 
+**Obtain 2 frames/second from the video. Use the object detection result from faster RCNN as ground truth.**
 
-* The metrics can be found here [[https://github.com/rafaelpadilla/Object-Detection-Metrics#metrics|precision-recall]] *
+*The metrics can be found [here](https://github.com/rafaelpadilla/Object-Detection-Metrics)*
+
+### SSD
+
+#### Basketball gym 
+
+AP: 45.89% (person)
+
+![basketball](/assets/ssd_basketball_person_rec_pre.png)
+
+mAP: 45.89%
+
+#### India street 
+
+AP: 0.00% (bicycle)
+
+AP: 0.00% (chair)
+
+AP: 0.00% (motorcycle)
+
+AP: 33.63% (person)
+
+![person](/assets/ssd_india_person_rec_pre.png)
+
+AP: 0.00% (umbrella)
+
+mAP: 6.73%
+
+
+#### Biking 
+
+AP: 59.53% (bicycle)
+
+![bike](/assets/ssd_biking_bike_rec_pre.png)
+
+AP: 61.58% (car)
+
+![bike](/assets/ssd_biking_car_rec_pre.png)
+
+AP: 56.25% (motorcycle)
+
+AP: 29.14% (person)
+
+![bike](/assets/ssd_biking_person_rec_pre.png)
+
+AP: 0.00% (truck)
+
+mAP: 41.30%
 
 ### Compare the frame with its previous frame(i.e., groundtruth is taken half second ago) 
 
